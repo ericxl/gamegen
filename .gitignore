@@ -1,0 +1,29 @@
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# PowerShell
+*.ps1.bak
+
+# Memory scan output / captures
+*.dmp
+*.bin
+*.dump
+scan-output/
+captures/
+
+# Logs
+*.log
+
+# Build / binaries
+*.exe
+*.dll
+*.pdb

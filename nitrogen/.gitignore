@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual env
+.venv/
+
+# Model weights (download via `hf download nvidia/NitroGen ng.pt`)
+ng.pt
+*.pt
+*.safetensors
+*.ckpt
+
+# Runtime output from play.py
+out/
+debug/
+
+# Recorder artifacts
+recording.mp4
+_stop_recording
+
+# Logs
+*.log

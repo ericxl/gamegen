@@ -1,11 +1,5 @@
 # Run
 
-NitroGen agent playing Overwatch (model never trained on OW, so actions are essentially random gamepad noise):
-
-<video src="../demo.mp4" controls width="100%"></video>
-
-[../demo.mp4](../demo.mp4)
-
 Already set up: Python 3.12 venv at `.venv`, deps installed, `ng.pt` downloaded.
 
 ```powershell

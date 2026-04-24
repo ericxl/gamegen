@@ -1,10 +1,6 @@
 # fastpaced-intelligence
 
-Training a Vision-Language-Action model that plays Overwatch.
 
-## NitroGen baseline
-
-[MineDojo/NitroGen](nitrogen/) running against live Overwatch — the model was never trained on OW, so the gamepad inputs are essentially noise:
 
 ![demo](demo2.gif)
 

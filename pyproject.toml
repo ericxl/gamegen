@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fpi"
+version = "0.1.0"
+description = "Fast-paced intelligence: Gemma 4 VLA for Overwatch"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "torch",
+    "transformers",
+    "pillow",
+    "pyzmq",
+]
+
+[project.optional-dependencies]
+play = [
+    "dxcam; sys_platform == 'win32'",
+    "pywinctl; sys_platform == 'win32'",
+    "pyautogui; sys_platform == 'win32'",
+    "pynput; sys_platform == 'win32'",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fpi*"]

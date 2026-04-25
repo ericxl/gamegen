@@ -1,4 +1,4 @@
-# fastpaced-intelligence
+# gamegen: foundation model for fastpaced generalist gaming agents
 
 ## Why this exists
 

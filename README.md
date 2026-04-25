@@ -1,5 +1,9 @@
 # gamegen: foundation model for fastpaced generalist gaming agents
 
+![demo](demo2.gif)
+
+The clip above is the current state of the data extraction pipeline, not the trained agent.
+
 ## Why this exists
 
 The long-term goal is a generalist robotic model that can think *and* take continuous, fast-paced action. Today's architectures don't support that. LLMs reason but don't act in real time. VLAs act but don't reason deeply. We want both at once.
@@ -81,7 +85,3 @@ python scripts/train.py --shards shards/*.npz       # BC training
 python scripts/serve.py checkpoints/fpi/ckpt_final.pt  # inference server
 python scripts/play.py                              # live agent against OW
 ```
-
-![demo](demo2.gif)
-
-The clip above is the current state of the data extraction pipeline, not the trained agent.
